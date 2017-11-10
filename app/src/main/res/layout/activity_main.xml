@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.atiscom.runtimepermissionrequest.MainActivity">
+    
+
+    <Button
+        android:onClick="requestCamera"
+        android:text="USE CAMERA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="requestStorage"
+        android:text="WRITE EXTERNAL STORAGE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="requestContacts"
+        android:text="READ CONTACTS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
